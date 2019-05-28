@@ -29,15 +29,15 @@
                     <div class="form-group row">
                         <label class="col-md-2" for="title">性別</label>
                         <div class="col-md-10">
-                            <input type="radio" name="gendar" value="male">男性
-                            <input type="radio" name="gendar" value="female">女性
-                            <input type="radio" name="gendar" value="noanswer">その他
+                            <input type="radio" name="gendar" value="male">男性&nbsp;
+                            <input type="radio" name="gendar" value="female">女性&nbsp;
+                            <input type="radio" name="gendar" value="noanswer">その他&nbsp;
                         </div>
                     </div>
                     <div class="form-group row">
                         <label class="col-md-2" for="body">趣味</label>
                         <div class="col-md-10">
-                            <textarea class="form-control" name="hody" rows="5">{{ old('body')}}</textarea>
+                            <textarea class="form-control" name="hobby" rows="5">{{ old('body')}}</textarea>
                         </div>
                     </div>
                     <div class="form-group row">
